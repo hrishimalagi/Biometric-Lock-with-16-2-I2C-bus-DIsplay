@@ -1,4 +1,8 @@
-   #include <Adafruit_Fingerprint.h>
+//this is works on arduino uno and r307 fingerprint sensor
+//this code is a work of Hrishikesh Malagi and Team in Kleit 
+
+
+#include <Adafruit_Fingerprint.h>
 #include <SoftwareSerial.h>
 
 SoftwareSerial mySerial(2, 3);
